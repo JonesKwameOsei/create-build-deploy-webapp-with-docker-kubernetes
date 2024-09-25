@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cafe-menu-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cafe-menu
+  template:
+    metadata:
+      labels:
+        app: cafe-menu
+    spec:
+      containers:
+      - name: cafe-menu
+        image: kwameds/cafe-menu:latest
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: cafe-menu-service
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 80
+  selector:
+    app: cafe-menu
