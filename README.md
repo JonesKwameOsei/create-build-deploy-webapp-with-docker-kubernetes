@@ -1,11 +1,11 @@
-## Camper Cafe Menu - Project Documentation
+## Jones Cafe Menu - Project Documentation
 
 ![alt text](image.png)
 
 This document outlines the technical details of the **Jones Cafe Menu** project. The project consists of a simple `HTML` and `CSS` implementation designed to display a coffee shop's menu. The code uses structured HTML to create sections for coffee and desserts, along with their corresponding prices. CSS is applied to style the menu with a focus on *layout, typography, and responsive design*.
 
 ### Table of Contents
-- [Camper Cafe Menu - Project Documentation](#camper-cafe-menu---project-documentation)
+- [Jones Cafe Menu - Project Documentation](#jones-cafe-menu---project-documentation)
   - [Table of Contents](#table-of-contents)
   - [Project Structure](#project-structure)
   - [HTML Overview](#html-overview)
