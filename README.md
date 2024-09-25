@@ -367,7 +367,7 @@ This will upload the image to DockerHub, making it publicly accessible in my rep
    NAME                TYPE           CLUSTER-IP       EXTERNAL-IP   PORT(S)        AGE
    cafe-menu-service   LoadBalancer   10.111.179.176   localhost     80:32171/TCP   11m
    ```
-   Once the external IP is ready, I can access the Cafe Menu via `http://<EXTERNAL-IP>`. In my case, I will access the Cafe Menu app via `http://localhost:80`.<p>
+   Once the external IP is ready, I can access the Cafe Menu application via `http://<EXTERNAL-IP>`. In my case, I will access the Cafe Menu app via `http://localhost:80`.<p>
 
    ![alt text](image-4.png)<p>
 ---
